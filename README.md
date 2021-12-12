@@ -2,6 +2,8 @@
 
 ## check contributing to other's project
 
+### workflow
+
 * hzget fork branch hzpost/hello via web site
 * git clone hzget/hello
 * move to a new branch
@@ -12,4 +14,25 @@
     * git add
     * git commit
     * git push
+
+### errors
+
+first time git push:
+
+fatal: The current branch feature has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin feature
+
+follow the command,then push again
+
+### workflow continue via web site
+
+* create pull request: base repo: hzget/hello base:main  <--  base repo: hzget/hello base:feature
+* merge
+* create pull request: base repo: hzpost/hello base:main  <--  base repo: hzget/hello base:main
+
+### workflow continue via web site from hzpost's viewpoint
+
+* review the code
 
