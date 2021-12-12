@@ -26,9 +26,13 @@ To push the current branch and set the remote as upstream, use
 
 follow the command,then push again
 
-### workflow continue
+### workflow continue via web site
 
 * create pull request: base repo: hzget/hello base:main  <--  base repo: hzget/hello base:feature
 * merge
 * create pull request: base repo: hzpost/hello base:main  <--  base repo: hzget/hello base:main
+
+### workflow continue via web site from hzpost's viewpoint
+
+* review the code
 
